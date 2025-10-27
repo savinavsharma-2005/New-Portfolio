@@ -361,7 +361,7 @@ body {
   transition: transform 0.3s ease;
 }
 
-#contacts-icon: hover {
+#contacts-icon:hover {
   transform: scale(1.2);
 }
 
