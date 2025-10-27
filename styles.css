@@ -353,6 +353,19 @@ body {
     margin: 0 10px;
     font-size: 24px;
   }
+
+.contact-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+}
+
+.contact-icon:hover {
+  transform: scale(1.2);
+}
+
   
 
 
