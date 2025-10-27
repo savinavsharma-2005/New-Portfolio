@@ -353,16 +353,18 @@ body {
     margin: 0 10px;
     font-size: 24px;
 }
-contact-icon {
+.contact-icon {
   width: 40px;
   height: 40px;
   margin: 0 10px;
+  color: #0077cc;
   vertical-align: unset;
   transition: transform 0.3s ease;
 }
 
-contact-icon:hover {
+.contact-icon:hover {
   transform: scale(1.2);
+  color: #005fa3; /* faded tone */
 }
 
 
