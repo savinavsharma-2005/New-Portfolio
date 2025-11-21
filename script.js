@@ -12,10 +12,15 @@ window.addEventListener('load', () => {
 
 
 // ------------------------------
-// DARK MODE TOGGLE
+// DARK MODE TOGGLE (DEFAULT: DARK)
 // ------------------------------
 document.addEventListener('DOMContentLoaded', () => {
   const toggle = document.getElementById('dark-toggle');
+  
+  // Set dark mode as default
+  document.body.classList.add('dark-mode');
+  toggle.checked = true; // Set toggle to checked state
+  
   toggle.addEventListener('change', () => {
     document.body.classList.toggle('dark-mode');
   });
